@@ -24,7 +24,7 @@ function App() {
             <Route path="/" element={<Home searchQuery={searchQuery} />} />
             <Route path="/create" element={<Create />} />
             <Route path="/post/:postId" element={<PostPage />} />
-            <Route path="/update/:id" element={<Update />} />
+            <Route path="/update/:postId" element={<Update />} />
           </Routes>
         </div>
       </div>

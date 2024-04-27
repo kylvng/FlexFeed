@@ -8,6 +8,7 @@ function Update() {
     const [post, setPost] = useState({ title: "", img: "", description: "" });
 
     useEffect(() => {
+
         const fetchPost = async () => {
             try {
                 const { data, error } = await supabase
@@ -26,7 +27,9 @@ function Update() {
             }
         };
 
-        fetchPost();
+        if (postId) {
+            fetchPost();
+        }
     }, [postId]);
 
     const handleChange = (event) => {
