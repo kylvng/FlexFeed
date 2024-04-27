@@ -41,10 +41,22 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- [X] **A home feed displaying previously created posts**
+- [X] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
+- [X] **Users can sort posts by either their created time or upvotes count**
+- [X] **Users can search for posts by title**
+<img src='https://i.imgur.com/IK1M5Sh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+- [X] **A create form that allows the user to create posts**
+- [X] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
+<img src='https://i.imgur.com/BK7VWhH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+- [X] **Clicking on a post shall direct the user to a new page for the selected post**
+<img src='https://i.imgur.com/HLSXuXO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/2LZgLzB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Kap!
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
