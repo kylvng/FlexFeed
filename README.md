@@ -49,10 +49,14 @@ Here's a walkthrough of implemented user stories:
 
 - [X] **A create form that allows the user to create posts**
 - [X] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
+- [X] **Clicking on a post shall direct the user to a new page for the selected post**
 <img src='https://i.imgur.com/BK7VWhH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-- [X] **Clicking on a post shall direct the user to a new page for the selected post**
+- [X] **Users can leave comments underneath a post on the post's separate page**
+- [X] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
 <img src='https://i.imgur.com/HLSXuXO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+- [X] **A previously created post can be edited or deleted from its post page**
 <img src='https://i.imgur.com/2LZgLzB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
