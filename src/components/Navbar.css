@@ -1,0 +1,38 @@
+
+.Navbar{
+    background-color: #90AEFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to the start and end */
+    align-items: center; /* Align items vertically */
+    border-radius: 1px;
+    height: 75px;
+}
+
+.nav-logo {
+    margin-left: 90px;
+    text-shadow: 1px 3px 5px rgb(0, 0, 0); /* Text shadow */
+    font-family: 'Verdana', sans-serif; /* Choose a suitable font family */
+    font-weight: bold; /* Increase font weight */
+    font-size: 20px;
+    color: rgba(255,255,255);
+}
+
+
+.nav-links {
+    display: flex; /* Use flexbox */
+    margin-right: 60px;
+    color: rgba(255,255,255);
+}
+
+.nav-links button {
+    margin-left: 15px; /* Add some space between buttons */
+    text-shadow: 1px 2px 4px rgb(0, 0, 0); 
+}
+
+.nav-links button:hover{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0); 
+}

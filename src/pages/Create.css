@@ -1,0 +1,51 @@
+.create-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+    width: 500px;
+}
+
+.create-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create-page form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.create-page label {
+    font-weight: bold;
+}
+
+.create-page input[type="text"],
+.create-page textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-page textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.create-page button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-page button[type="submit"]:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,98 @@
+/* PostPage.css */
+.post-page-container {
+    width: 1000px;
+    padding: 20px;
+}
+
+.post-details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: black
+}
+
+.post-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-details p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.post-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.comments-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: black
+}
+
+.comments-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.comment p:last-child {
+    margin-bottom: 0;
+}
+
+.comments-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.comment button {
+    padding: 5px 10px;
+    background-color: #0a0a0a;
+    color: rgba(255, 255, 255, 0.38);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment button:hover {
+    background-color: #0056b3;
+}

@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import Home from './pages/Home';
+import Create from './pages/Create';
+import PostPage from './pages/PostPage';
+import Update from './pages/Update';
+import Navbar from './components/Navbar';
 import './App.css'
 
 function App() {
@@ -10,13 +14,13 @@ function App() {
     <>
       <Router>
             <div className='whole-page'>
-                <Sidebar />
+                <Navbar />
                 <div className='main-content'>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/create" element={<Create />} />
-                        <Route path="/post" element={<PostPage />} />
-                        <Route path="/update" element={<Update />} />
+                        <Route path="/post/:postId" element={<PostPage />} />
+                        <Route path="/update/:postId" element={<Update />} />
                     </Routes>
                 </div>
             </div>
