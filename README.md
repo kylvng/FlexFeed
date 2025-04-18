@@ -1,6 +1,4 @@
-# Web Development Final Project - *Flex Feed*
-
-Submitted by: **Kyle Vong**
+## FlexFeed
 
 This web app: **Gym goer's go-to forum! Have a question? Post your question to the feed. Want to share your experience? Post your experience in the feed. Want to interact with other gym goers? Leave a comment down below!**
 
