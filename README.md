@@ -2,18 +2,6 @@
 
 This web app: **Gym goer's go-to forum! Have a question? Post your question to the feed. Want to share your experience? Post your experience in the feed. Want to interact with other gym goers? Leave a comment down below!**
 
-- [X] **A create form that allows the user to create posts**
-- [X] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
-- [X] **A home feed displaying previously created posts**
-- [X] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
-- [X] **Clicking on a post shall direct the user to a new page for the selected post**
-- [X] **Users can sort posts by either their created time or upvotes count**
-- [X] **Users can search for posts by title**
-- [X] **A separate post page for each created post, where any additional information is shown is linked whenever a user clicks a post**
-- [X] **Users can leave comments underneath a post on the post's separate page**
-- [X] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
-- [X] **A previously created post can be edited or deleted from its post page**
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -44,8 +32,6 @@ GIF created with Kap!
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Describe any challenges encountered while building the app.
 
 The css gave me some trouble (obviously)
 
