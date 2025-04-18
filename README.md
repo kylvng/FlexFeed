@@ -2,12 +2,6 @@
 
 This web app: **Gym goer's go-to forum! Have a question? Post your question to the feed. Want to share your experience? Post your experience in the feed. Want to interact with other gym goers? Leave a comment down below!**
 
-Time spent: **6** hours spent in total
-
-## Required Features
-
-The following **required** functionality is completed:
-
 - [X] **A create form that allows the user to create posts**
 - [X] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
 - [X] **A home feed displaying previously created posts**
@@ -19,21 +13,6 @@ The following **required** functionality is completed:
 - [X] **Users can leave comments underneath a post on the post's separate page**
 - [X] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
 - [X] **A previously created post can be edited or deleted from its post page**
-
-The following **optional** features are implemented:
-
-- [ ] Users can only edit and deleted posts or delete comments by entering the secret key, which is set by the user during post creation
-- [ ] Upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them.
-- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [ ] Users can customize the interface of the web app
-- [ ] Users can share and view web videos
-- [ ] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
-- [ ] Users can upload images directly from their local machine as an image file
-- [ ] Display a loading animation whenever data is being fetched
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
